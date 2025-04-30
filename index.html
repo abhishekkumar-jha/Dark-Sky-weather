@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dark Sky</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background"></div>
+
+  <div class="container">
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search city...">
+      <button onclick="fetchWeather()">🔍</button>
+    </div>
+
+    <div class="weather-card" id="currentWeather">
+      <h2 id="location">Enter Your City</h2>
+      <div id="temperature">-- °C</div>
+      <div class="details">
+        <p><span id="condition">--</span></p>
+        <p>Humidity: <span id="humidity">--</span>%</p>
+        <p>Wind: <span id="wind">--</span> km/h</p>
+        <p>Air Quality: <span id="airQuality">--</span></p>
+        <p>Sunrise: <span id="sunrise">--</span></p>
+        <p>Sunset: <span id="sunset">--</span></p>
+      </div>
+    </div>
+
+    <div class="forecast" id="forecast"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
