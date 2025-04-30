@@ -1,0 +1,39 @@
+# Node modules (if you later use npm)
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+desktop.ini
+
+# VS Code settings (optional)
+.vscode/
+
+# Environment files (for secrets or API keys if used)
+.env
+
+# Build or dist folders (if you set up bundling later)
+dist/
+build/
+
+# Cache and temp
+*.log
+*.tmp
+.cache/
+
+# JetBrains IDEs
+.idea/
+
+# OS-specific hidden files
+*.swp
+*~
+
+# Optional: ignore sample mock data
+/data/sample-response.json
