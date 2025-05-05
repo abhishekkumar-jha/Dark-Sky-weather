@@ -23,3 +23,6 @@ void get_weather(const char*city) {
 
 // Prepare the API URL
 snprintf(url, sizeof(url), API_URL, city, API_KEY);
+
+// Initialize libcurl
+
