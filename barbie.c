@@ -4,3 +4,5 @@
 #include<curl/curl.h>
 #include<cjson/cJSON.h>
 
+// Replace with your OpenWeatherMap API key
+#define API
