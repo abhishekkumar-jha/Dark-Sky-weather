@@ -19,3 +19,4 @@ void get_weather(const char*city) {
   CURL *curl;
   CURLcode res;
   char url[256];
+  char data[2048] = ""; // Store the HTTP response here
