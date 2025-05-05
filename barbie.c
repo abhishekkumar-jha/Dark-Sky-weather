@@ -9,4 +9,5 @@
 #define API_URL "your URL"
 
 //FUnction to handle the HTTP response 
-size-t w
+size-t write_callback(void*ptr, size_t size, size_t nmemb, char*data) {
+  st
