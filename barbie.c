@@ -15,3 +15,6 @@ size-t write_callback(void*ptr, size_t size, size_t nmemb, char*data) {
 }
 
 //Function to get weather Data
+void get_weather(const char*city) {
+  CURL *curl;
+
