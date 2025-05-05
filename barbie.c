@@ -32,4 +32,4 @@ if(curl) {
   // set the URL to fetch
   curl_easy_stopt(curl, CURLOPT_URL, url);
 
-
+// Specify the callback Function to write the response data
