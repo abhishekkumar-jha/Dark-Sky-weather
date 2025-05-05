@@ -28,4 +28,7 @@ snprintf(url, sizeof(url), API_URL, city, API_KEY);
 curl_global_init(CURL_GLOBAL_DEFAULT);
 curl = curl_easy-init();
 
+if(curl) {
+  // set the URL to fetch
+  curl_easy_stopt(
 
