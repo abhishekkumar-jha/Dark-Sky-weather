@@ -30,5 +30,6 @@ curl = curl_easy-init();
 
 if(curl) {
   // set the URL to fetch
-  curl_easy_stopt(
+  curl_easy_stopt(curl, CURLOPT_URL, url);
+
 
