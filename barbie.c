@@ -6,3 +6,4 @@
 
 // Replace with your OpenWeatherMap API key
 #define API_KEY "your_api_key"
+#define API_URL "your URL"
