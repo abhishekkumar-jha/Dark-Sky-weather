@@ -13,3 +13,5 @@ size-t write_callback(void*ptr, size_t size, size_t nmemb, char*data) {
   strcat(data, ptr);
   return size * nmemb;
 }
+
+//Function to get weather Data
