@@ -5,4 +5,4 @@
 #include<cjson/cJSON.h>
 
 // Replace with your OpenWeatherMap API key
-#define API
+#define API_KEY "your_api_key"
