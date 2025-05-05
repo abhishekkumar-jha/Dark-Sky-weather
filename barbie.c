@@ -20,3 +20,6 @@ void get_weather(const char*city) {
   CURLcode res;
   char url[256];
   char data[2048] = ""; // Store the HTTP response here
+
+// Prepare the API URL
+snprintf(url, sizeof(url), API_URL, city, API_KEY);
