@@ -26,5 +26,6 @@ snprintf(url, sizeof(url), API_URL, city, API_KEY);
 
 // Initialize libcurl
 curl_global_init(CURL_GLOBAL_DEFAULT);
+curl = curl_easy-init();
 
 
