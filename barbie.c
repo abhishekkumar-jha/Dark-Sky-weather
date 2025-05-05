@@ -11,3 +11,5 @@
 //FUnction to handle the HTTP response 
 size-t write_callback(void*ptr, size_t size, size_t nmemb, char*data) {
   strcat(data, ptr);
+  return size * nmemb;
+}
