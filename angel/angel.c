@@ -359,3 +359,13 @@ int main() {
     return 0;
 }
 
+#include <stdio.h>
+#include <string.h>
+int main() {
+    char src[] = "Hello", dest[20];
+    strcpy(dest, src);
+    printf("Copied String: %s\n", dest);
+    return 0;
+}
+
+
