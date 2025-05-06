@@ -242,3 +242,20 @@ int main() {
     printf("Decimal: %d\n", decimal);
     return 0;
 }
+
+#include <stdio.h>
+int main() {
+    int n = 13;
+    int binary[32], i = 0;
+    while (n > 0) {
+        binary[i] = n % 2;
+        n /= 2;
+        i++;
+    }
+    printf("Binary: ");
+    for (int j = i - 1; j >= 0; j--) {
+        printf("%d", binary[j]);
+    }
+    return 0;
+}
+
