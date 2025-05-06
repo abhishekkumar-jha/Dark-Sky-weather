@@ -193,3 +193,18 @@ int main() {
     printf("GCD: %d\n", a);
     return 0;
 }
+
+#include <stdio.h>
+int main() {
+    int a = 6, b = 8;
+    int gcd = 1, lcm;
+    for (int i = 1; i <= a && i <= b; i++) {
+        if (a % i == 0 && b % i == 0) {
+            gcd = i;
+        }
+    }
+    lcm = (a * b) / gcd;
+    printf("LCM: %d\n", lcm);
+    return 0;
+}
+
