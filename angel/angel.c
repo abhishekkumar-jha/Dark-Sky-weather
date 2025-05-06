@@ -5,3 +5,11 @@ int main()
     return 0;
 }
 // This is a simple C program that prints "Hello, World!" to the console.
+
+#include <stdio.h>
+int main() {
+    for (int i = 1; i <= 10; i++) {
+        printf("%d\n", i);
+    }
+    return 0;
+}
