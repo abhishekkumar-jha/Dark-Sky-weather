@@ -350,3 +350,12 @@ int main() {
     printf("Concatenated String: %s\n", str1);
     return 0;
 }
+
+#include <stdio.h>
+#include <string.h>
+int main() {
+    char str[] = "Hello, World!";
+    printf("Length: %lu\n", strlen(str));
+    return 0;
+}
+
