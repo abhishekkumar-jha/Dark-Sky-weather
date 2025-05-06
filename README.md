@@ -2,11 +2,13 @@
 
 A simple responsive weather app built with HTML, CSS, and JavaScript using the OpenWeatherMap API.
 
-## Features
+## 🚀 Features
 - Search by city name
 - Current temperature, humidity, wind speed
 - Responsive design
 - Simple and clean UI
+
+### 🛠️ Built With
 
 ## Setup
 1. Clone the repo
