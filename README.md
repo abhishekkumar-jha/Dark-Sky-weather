@@ -17,6 +17,8 @@ A simple responsive weather app built with HTML, CSS, and JavaScript using the O
 - Weather API
 
 ### 👨‍💻 Team Members
+This project was created by:
+
 
 
 ## Setup
