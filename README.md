@@ -13,6 +13,8 @@ A simple responsive weather app built with HTML, CSS, and JavaScript using the O
 - Simple and clean UI
 
 ### 🛠️ Built With
+- HTML, CSS, JavaScript
+- Weather API
 
 ## Setup
 1. Clone the repo
