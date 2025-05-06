@@ -31,3 +31,14 @@ int main() {
     }
     return 0;
 }
+
+#include <stdio.h>
+int main() {
+    int a = 10, b = 20;
+    if (a > b) {
+        printf("%d is larger\n", a);
+    } else {
+        printf("%d is larger\n", b);
+    }
+    return 0;
+}
