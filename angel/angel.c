@@ -85,3 +85,29 @@ int main() {
     return 0;
 }
 
+#include <stdio.h>
+int main() {
+    int n = 29, isPrime = 1;
+    for (int i = 2; i <= n / 2; i++) {
+        if (n % i == 0) {
+            isPrime = 0;
+            break;
+        }
+    }
+    if (isPrime) {
+        printf("%d is prime\n", n);
+    } else {
+        printf("%d is not prime\n", n);
+    }
+    return 0;
+}
+
+#include <stdio.h>
+int main() {
+    int a = 5, b = 10;
+    a = a + b;
+    b = a - b;
+    a = a - b;
+    printf("Swapped: a = %d, b = %d\n", a, b);
+    return 0;
+}
