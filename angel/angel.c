@@ -219,3 +219,14 @@ int main() {
     return 0;
 }
 
+#include <stdio.h>
+int main() {
+    int n = 12345, count = 0;
+    while (n != 0) {
+        n /= 10;
+        count++;
+    }
+    printf("Digit count: %d\n", count);
+    return 0;
+}
+
