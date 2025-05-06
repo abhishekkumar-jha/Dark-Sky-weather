@@ -280,3 +280,13 @@ int main() {
     return 0;
 }
 
+#include <stdio.h>
+int main() {
+    int base = 2, exponent = 3, result = 1;
+    for (int i = 1; i <= exponent; i++) {
+        result *= base;
+    }
+    printf("Result: %d\n", result);
+    return 0;
+}
+
