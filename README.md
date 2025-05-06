@@ -29,5 +29,5 @@ This project was created by:
 2. Get a free API key from [WeatherAPI](https://www.weatherapi.com/)
 3. Replace `YOUR_API_KEY` in `script.js`
 
-## Project/Website Demo Link
+## 🌐 Project/Website Demo Link
 Check out the Project/Website Here: [https://abhishekkumar-jha.github.io/Dark-Sky-weather/]
