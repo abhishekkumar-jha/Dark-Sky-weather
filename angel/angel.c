@@ -230,3 +230,15 @@ int main() {
     return 0;
 }
 
+#include <stdio.h>
+int main() {
+    int bin = 1011, decimal = 0, base = 1, rem;
+    while (bin > 0) {
+        rem = bin % 10;
+        decimal += rem * base;
+        bin /= 10;
+        base *= 2;
+    }
+    printf("Decimal: %d\n", decimal);
+    return 0;
+}
