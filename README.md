@@ -18,8 +18,11 @@ A simple responsive weather app built with HTML, CSS, and JavaScript using the O
 
 ### 👨‍💻 Team Members
 This project was created by:
-
-
+- Abhishek Kumar Jha (2410990973)
+- Angel (2410990978)
+- Barbie (2410990990)
+- Dhruv Garg (2410991035)
+- Disha Arora (2410991042)
 
 ## Setup
 1. Clone the repo
