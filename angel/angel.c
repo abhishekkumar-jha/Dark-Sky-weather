@@ -138,4 +138,19 @@ int main() {
     return 0;
 }
 
+#include <stdio.h>
+int main() {
+    int n = 121, original = n, reversed = 0;
+    while (n != 0) {
+        reversed = reversed * 10 + n % 10;
+        n /= 10;
+    }
+    if (original == reversed) {
+        printf("Palindrome\n");
+    } else {
+        printf("Not Palindrome\n");
+    }
+    return 0;
+}
+
 
