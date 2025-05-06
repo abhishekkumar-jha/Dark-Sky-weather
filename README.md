@@ -2,6 +2,9 @@
 
 A simple responsive weather app built with HTML, CSS, and JavaScript using the OpenWeatherMap API.
 
+## 📌 About
+
+
 ## 🚀 Features
 - Search by city name
 - Current temperature, humidity, wind speed
