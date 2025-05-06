@@ -181,3 +181,15 @@ int main() {
     }
     return 0;
 }
+
+#include <stdio.h>
+int main() {
+    int a = 56, b = 98;
+    while (b != 0) {
+        int temp = b;
+        b = a % b;
+        a = temp;
+    }
+    printf("GCD: %d\n", a);
+    return 0;
+}
