@@ -16,6 +16,9 @@ A simple responsive weather app built with HTML, CSS, and JavaScript using the O
 - HTML, CSS, JavaScript
 - Weather API
 
+### 👨‍💻 Team Members
+
+
 ## Setup
 1. Clone the repo
 2. Get a free API key from [WeatherAPI](https://www.weatherapi.com/)
