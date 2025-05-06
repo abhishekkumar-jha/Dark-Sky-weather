@@ -14,5 +14,5 @@ A simple responsive weather app built with HTML, CSS, and JavaScript using the O
 3. Replace `YOUR_API_KEY` in `script.js`
 4. Open `index.html` in browser.
 
-## Project Demo Link
+## Project/Website Demo Link
 Check out the Project/Website Here: 
