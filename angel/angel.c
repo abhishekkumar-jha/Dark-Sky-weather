@@ -259,3 +259,24 @@ int main() {
     return 0;
 }
 
+#include <stdio.h>
+int main() {
+    int n = 153, sum = 0, temp = n, rem, digits = 0;
+    while (temp != 0) {
+        temp /= 10;
+        digits++;
+    }
+    temp = n;
+    while (temp != 0) {
+        rem = temp % 10;
+        sum += pow(rem, digits);
+        temp /= 10;
+    }
+    if (sum == n) {
+        printf("Armstrong number\n");
+    } else {
+        printf("Not Armstrong number\n");
+    }
+    return 0;
+}
+
